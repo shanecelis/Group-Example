@@ -3,15 +3,15 @@ using System.Collections;
 
 public class Replicator : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+  // Use this for initialization
+  void Start () {
     Invoke("Replicate", 0.4f);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+  }
+  
+  // Update is called once per frame
+  void Update () {
+  
+  }
 
   void Replicate() {
     GameObject go = Instantiate(this.gameObject,
